@@ -1,0 +1,8 @@
+:root {
+  --fontSize: .520835vw;
+}
+@media screen and (max-width: 480px) {
+  :root {
+    --fontSize: 2.825vw;
+  }
+}

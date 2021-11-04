@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Roboto-Light;
+  src: local('Roboto-Light'),
+  url("../assets/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: local('Roboto-Bold'),
+  url("../assets/fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Medium;
+  src: local('Roboto-Medium'),
+  url("../assets/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: local('Roboto-Regular'),
+  url("../assets/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: VIVITA-Regular;
+  src: local('VIVITA-Regular'),
+  url("../assets/fonts/VIVITA-Regular.ttf");
+}
+@font-face {
+  font-family: VIVITA-Medium;
+  src: local('VIVITA-Medium'),
+  url("../assets/fonts/VIVITA-Medium.ttf");
+}
+
+a {
+  color: #414042;
+  text-decoration: none;
+}
+ul, li {
+  list-style-type: none;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: Roboto-Light, sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: var(--fontSize);
+  line-height: 2.1rem;
+  color: #ffffff;
+}
+
+.container {
+  width: 120rem;
+  margin: auto;
+}
+
+h1 {
+  font-family: Roboto-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  color: #ffffff;
+}
+h2 {
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.h2 {
+  font-family: Roboto-Medium, sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+.h3 {
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+h4 {
+  font-family: Roboto-Regular, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+h5 {
+  font-family: Roboto-Medium, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+.h5 {
+  font-family: Roboto-Medium, sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+//.h6 {
+//  font-family: Roboto-Light, sans-serif;
+//  font-weight: 300;
+//  font-size: 1.8rem;
+//  line-height: 2.1rem;
+//}
+.btn-white {
+  background: #F8F8F8;
+  border-radius: 3px;
+  color: #1D1D1D;
+  border: none;
+  padding: 0.8rem 0;
+}
