@@ -62,6 +62,7 @@ export default {
     padding-top: 3.7rem;
     display: flex;
     justify-content: center;
+
     img {
       width: 3rem;
     }
@@ -123,25 +124,32 @@ export default {
     height: 53.5rem;
     width: 100%;
     padding-top: 22rem;
+
     &:before {
       top: 19.5rem;
       width: 54.76rem;
     }
+
     &__block {
       width: 48rem;
     }
+
     &__btn-more {
       padding-top: 9.7rem;
+
       img {
         width: 2.2rem;
       }
     }
+
     &__title {
       position: relative;
+
       &-media {
         font-size: 3.8rem;
       }
     }
+
     &__subtitle {
       margin: auto;
       display: flex;
@@ -151,7 +159,16 @@ export default {
 
     &__list {
       padding: 3.3rem 0 5.3rem 0;
+
+      &-item {
+        &:last-child {
+          &:after {
+            display: none;
+          }
+        }
+      }
     }
+
     &__btn {
       margin-top: 2rem;
       display: flex;

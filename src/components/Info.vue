@@ -182,7 +182,7 @@ export default {
       padding-top: 8rem;
       display: flex;
       flex-direction: column;
-      width: 120rem;
+      width: 44rem;
       &-left {
         &-item {
           padding-bottom: 6.4rem;

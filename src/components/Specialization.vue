@@ -295,6 +295,7 @@ export default {
       &__block {
         display: flex;
         flex-direction: column;
+        width: 44rem;
         &-left {
           &-title {
             padding-top: 5.2rem;
