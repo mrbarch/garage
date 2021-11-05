@@ -143,4 +143,80 @@ export default {
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .guaranted {
+    height: 87.3rem;
+    &__title {
+      padding-top: 5rem;
+    }
+    &__subtitle {
+      justify-content: center;
+      width: 43rem;
+      p {
+        color: #181818;
+        font-size: 2.1rem;
+        line-height: 2.2rem;
+      }
+    }
+    &__skills-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 34rem;
+      margin: auto;
+    }
+    &__item {
+      display: flex;
+      height: 8rem;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.9rem;
+      img {
+        width: 8rem;
+      }
+      &:nth-child(1) {
+        padding-top: 1rem !important;
+        height: 11.5rem;
+      }
+      &:nth-child(2) {
+        padding-top: 5rem !important;
+        height: 11.5rem;
+        padding-left: .7rem;
+      }
+      &:nth-child(3) {
+        padding-top: 5rem !important;
+        height: 11.5rem;
+      }
+    }
+    &__bottom {
+      padding-top: 3.8rem;
+      display: flex;
+      &:before {
+        content: '';
+        position: absolute;
+        background: #CA4141;
+        width: 74.2rem;
+        height: 11.9rem;
+        top: 77.5rem;
+        right: 0;
+        z-index: 2;
+      }
+      &-text {
+        text-transform: uppercase;
+        color: #16253A;
+        display: flex;
+        position: absolute;
+        left: 2rem;
+        right: 0;
+        width: 44rem;
+        top: 79.5rem;
+        z-index: 3;
+        span {
+          color: #16253A;
+        }
+      }
+    }
+  }
+}
 </style>

@@ -171,4 +171,55 @@ export default {
     }
   }
 }
+@media screen and (max-width: 480px) {
+
+  .info {
+    height: 127rem;
+    &-bg {
+      display: none;
+    }
+    &__block {
+      padding-top: 8rem;
+      display: flex;
+      flex-direction: column;
+      width: 120rem;
+      &-left {
+        &-item {
+          padding-bottom: 6.4rem;
+          &:nth-child(2) {
+            padding-bottom: 6.9rem;
+          }
+          &:nth-child(3) {
+            padding-bottom: 7rem;
+          }
+        }
+
+        &-bottom {
+          width: 48.7rem;
+          padding-top: 2.6rem;
+
+          &-text {
+            font-size: 1.8rem;
+            width: 37rem;
+          }
+
+          &-img {
+            width: 8.43rem;
+          }
+        }
+      }
+      &-right {
+        padding-top: 3.3rem;
+        &-text {
+          font-size: 2rem;
+          width: 47rem;
+        }
+        &-btn {
+          margin-top: 4.4rem;
+          padding: .8rem 1.8rem;
+        }
+      }
+    }
+  }
+}
 </style>

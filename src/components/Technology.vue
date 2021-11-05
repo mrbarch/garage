@@ -108,4 +108,29 @@ export default {
       }
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .technology {
+      height: 49.7rem;
+      &__block {
+        padding-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        width: 44rem;
+        &-left {
+          padding-top: 4.2rem;
+          &-list {
+            width: 44.4rem;
+          }
+        }
+        &-right {
+          padding-top: 2rem;
+          font-size: 2rem;
+          &-text {
+            width: 44rem;
+          }
+        }
+      }
+    }
+  }
 </style>

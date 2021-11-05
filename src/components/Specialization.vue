@@ -127,4 +127,235 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .specialization {
+    position: relative;
+    top: -2.5rem;
+    background-color: #E5E5E5;
+    height: 47rem;
+
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      width: 130rem;
+
+      &-left {
+        &-title {
+          padding-top: 12.2rem;
+          color: #3A5565;
+          text-transform: uppercase;
+        }
+
+        &-subtitle {
+          color: #181818;
+          font-size: 1.8rem;
+          width: 55rem;
+          padding-top: 1.2rem;
+        }
+      }
+
+      &-right {
+        width: 65rem;
+        padding-top: 12.1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 29rem;
+
+        &-text {
+          font-size: 1.8rem;
+          color: #181818;
+          width: 52rem;
+
+          &:nth-child(5) {
+            width: 55rem;
+          }
+
+          span {
+            font-family: Roboto-Bold, sans-serif;
+
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    &__bottom {
+      &:before {
+        content: '';
+        position: absolute;
+        background: #CA4141;
+        width: 48.7rem;
+        height: 12rem;
+        top: 40rem;
+        left: 0;
+        z-index: 2;
+      }
+      &-text {
+        text-transform: uppercase;
+        color: #ffffff;
+        display: flex;
+        position: absolute;
+        left: 35.3rem;
+        bottom: -.6rem;
+        z-index: 3;
+
+        span {
+          color: #16253A;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .specialization {
+    position: relative;
+    top: -2.5rem;
+    background-color: #E5E5E5;
+    height: 47rem;
+
+    &__block {
+      display: flex;
+      justify-content: space-between;
+      width: 130rem;
+
+      &-left {
+        &-title {
+          padding-top: 12.2rem;
+          color: #3A5565;
+          text-transform: uppercase;
+        }
+
+        &-subtitle {
+          color: #181818;
+          font-size: 1.8rem;
+          width: 55rem;
+          padding-top: 1.2rem;
+        }
+      }
+
+      &-right {
+        width: 65rem;
+        padding-top: 12.1rem;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 29rem;
+
+        &-text {
+          font-size: 1.8rem;
+          color: #181818;
+          width: 52rem;
+
+          &:nth-child(5) {
+            width: 55rem;
+          }
+
+          span {
+            font-family: Roboto-Bold, sans-serif;
+
+            font-weight: bold;
+          }
+        }
+      }
+    }
+
+    &__bottom {
+      &:before {
+        content: '';
+        position: absolute;
+        background: #CA4141;
+        width: 73.1rem;
+        height: 12rem;
+        top: 40rem;
+        left: 0;
+        z-index: 2;
+      }
+      &-text {
+        text-transform: uppercase;
+        color: #ffffff;
+        display: flex;
+        position: absolute;
+        left: 35.3rem;
+        bottom: -.6rem;
+        z-index: 3;
+
+        span {
+          color: #16253A;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .specialization {
+      height: 53rem;
+
+      &__block {
+        display: flex;
+        flex-direction: column;
+        &-left {
+          &-title {
+            padding-top: 5.2rem;
+          }
+          &-subtitle {
+            font-size: 2rem;
+            width: 44rem;
+            padding-top: 0rem;
+          }
+        }
+
+        &-right {
+          width: 44rem;
+          padding-top: 5.1rem;
+          height: 29rem;
+
+          &-text {
+            font-size: 1.8rem;
+            color: #181818;
+            width: 44rem;
+
+            &:nth-child(5) {
+              width: 44rem;
+            }
+
+            span {
+              font-family: Roboto-Bold, sans-serif;
+
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      &__bottom {
+        &:before {
+          content: '';
+          position: absolute;
+          background: #CA4141;
+          width: 54.8rem;
+          height: 10.5rem;
+          top: 53rem;
+          left: 0;
+          z-index: 2;
+        }
+        &-text {
+          text-transform: uppercase;
+          color: #16253A;
+          display: flex;
+          position: absolute;
+          left: 2rem;
+          top: 55rem;
+          z-index: 3;
+
+          span {
+            color: #16253A;
+          }
+        }
+      }
+    }
+  }
+}
+
 </style>

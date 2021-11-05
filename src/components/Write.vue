@@ -137,4 +137,41 @@ export default {
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .write {
+    height: 103.6rem;
+    &__block {
+      flex-direction: column;
+      width: 44rem;
+      &-left {
+        &-btn {
+          margin-top: 5rem !important;
+          display: flex;
+          justify-content: center;
+          margin: auto;
+        }
+        &-title {
+          padding-top: 7.5rem;
+          width: 40rem;
+        }
+        &-subtitle {
+          font-size: 2rem;
+          line-height: 2.4rem;
+          width: 44rem;
+          padding-top: 4rem;
+        }
+      }
+      &-right {
+        &-form {
+          left: 2.3rem;
+          top: 48rem;
+          height: 44rem;
+          &-btn {
+            margin-top: 3.8rem;
+          }
+        }
+      }
+    }
+  }
+}
 </style>

@@ -62,6 +62,13 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    width: 48rem;
+    margin: auto;
+  }
+}
+
 h1 {
   font-family: Roboto-Medium, sans-serif;
   font-style: normal;

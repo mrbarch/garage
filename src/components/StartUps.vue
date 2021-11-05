@@ -4,7 +4,7 @@
       <div class="container">
         <div class="startups__block">
           <div>
-            <h1 class="startups__title">STARTUPS ARE BORN HERE</h1>
+            <h1 class="startups__title startups__title-media">STARTUPS ARE BORN HERE</h1>
             <p class="startups__subtitle h3">IT solutions for good ideas</p>
             <ul class="startups__list">
               <li class="startups__list-item h5">Promo sites</li>
@@ -112,6 +112,52 @@ export default {
     line-height: 2.3rem;
     width: 15rem;
     padding: .8rem 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .startups__block-img {
+    display: none;
+  }
+  .startups {
+    height: 53.5rem;
+    width: 100%;
+    padding-top: 22rem;
+    &:before {
+      top: 19.5rem;
+      width: 54.76rem;
+    }
+    &__block {
+      width: 48rem;
+    }
+    &__btn-more {
+      padding-top: 9.7rem;
+      img {
+        width: 2.2rem;
+      }
+    }
+    &__title {
+      position: relative;
+      &-media {
+        font-size: 3.8rem;
+      }
+    }
+    &__subtitle {
+      margin: auto;
+      display: flex;
+      padding-top: 5rem;
+      justify-content: center;
+    }
+
+    &__list {
+      padding: 3.3rem 0 5.3rem 0;
+    }
+    &__btn {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
   }
 }
 </style>
