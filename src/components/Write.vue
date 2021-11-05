@@ -4,8 +4,8 @@
       <div class="container">
         <div class="write__block">
           <div class="write__block-left">
-            <h2 class="write__block-left-title">Just write to GARAGE right now</h2>
-            <p class="write__block-left-subtitle">
+            <h2 class="write__block-left-title" v-scrollanimation-show>Just write to GARAGE right now</h2>
+            <p class="write__block-left-subtitle" v-scrollanimation-show>
               For 4 years of work, we have assembled a very skill team of IT engineers. We have created more than 50
               successful and complex projects in the field of e-commerce, sales, services, marketing and other areas.
               Our clients are very satisfied. So check out our portfolio
@@ -21,7 +21,7 @@
               <input type="text" placeholder="Company" class="write__block-right-form-company form-input">
               <input type="text" placeholder="Email" class="write__block-right-form-email form-input">
               <p class="write__block-right-form-answer">We will answer to you very soon</p>
-              <button class="write__block-right-form-btn">Contact Me, please</button>
+              <button class="write__block-right-form-btn btn-white">Contact Me, please</button>
             </div>
           </div>
         </div>
@@ -37,6 +37,15 @@ export default {
 </script>
 
 <style lang="scss">
+.before-enter-show {
+  opacity: 0;
+  transition: 5s;
+}
+.enter-show {
+  opacity: 1;
+}
+
+
 .form-input {
   outline: none;
   background-color: transparent;
@@ -87,12 +96,16 @@ export default {
       }
 
       &-btn {
-        color: #ffffff !important;
-        background: #4064E3 !important;
+        color: #ffffff;
+        background: #4064E3;
         font-size: 2rem;
         line-height: 2.3rem;
         margin-top: 8rem;
         padding: .8rem 2.2rem !important;
+        &:hover {
+          color: #4064E3;
+          background-color: #ffffff;
+        }
       }
     }
     &-right {
@@ -125,6 +138,9 @@ export default {
           padding-top: 2.2rem;
         }
         &-btn {
+          border: none;
+          outline: none;
+          border-radius: 3px;
           display: flex;
           justify-content: center;
           margin: auto;

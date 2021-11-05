@@ -4,14 +4,14 @@
       <div class="container">
         <div class="specialization__block">
           <div class="specialization__block-left">
-            <h2 class="specialization__block-left-title">
+            <h2 class="specialization__block-left-title" id="specialization">
               What we doing?
             </h2>
             <p class="specialization__block-left-subtitle">
               Our team provides highly qualified technological support at all stages of creating your product
             </p>
           </div>
-          <div class="specialization__block-right">
+          <div class="specialization__block-right" v-scrollanimation-show>
             <p class="specialization__block-right-text">
               <span>Marketing</span> - creating promotional pages, launching advertising campaigns
             </p>

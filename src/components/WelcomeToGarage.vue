@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="guaranted">
+    <div  class="guaranted">
       <div class="container">
-        <p class="guaranted__title h2">
+        <p class="guaranted__title h2" id="welcome">
           Welcome to GARAGE
         </p>
         <div class="guaranted__subtitle">
@@ -15,27 +15,29 @@
           We guaranted for you
         </h5>
         <div class="guaranted__skills-block">
-          <div class="guaranted__item">
+
+          <div class="guaranted__item" v-scrollanimation-welcome1>
             <img src="./../assets/img/ui-ux.png" alt="ui-ux" class="guaranted__item_img">
             <p class="guaranted__item_text">
               Perfect UX/UI Design
             </p>
           </div>
 
-          <div class="guaranted__item">
+          <div class="guaranted__item" v-scrollanimation-welcome2>
             <img src="./../assets/img/dev-skills.png" alt="dev-skills" class="guaranted__item_img">
             <p class="guaranted__item_text">
               High skill development
             </p>
           </div>
 
-          <div class="guaranted__item">
+          <div class="guaranted__item" v-scrollanimation-welcome3>
             <img src="./../assets/img/marketing.png" alt="marketing" class="guaranted__item_img">
             <p class="guaranted__item_text">
               Professional marketing
             </p>
           </div>
         </div>
+
         <div class="guaranted__bottom">
           <div class="guaranted__bottom-text">
             <p class="h2">GARAGE know <span>how Internet is works</span></p>
@@ -53,6 +55,39 @@ export default {
 </script>
 
 <style lang="scss">
+.before-enter-show-1 {
+  opacity: 0;
+  transition: 2s;
+}
+.enter-show-1 {
+  opacity: 1;
+}
+
+.before-enter-show-2 {
+  opacity: 0;
+  transition: 4s;
+}
+.enter-show-2 {
+  opacity: 1;
+}
+
+.before-enter-show-3 {
+  opacity: 0;
+  transition: 6s;
+}
+.enter-show-3 {
+  opacity: 1;
+}
+.before-enter-show-4 {
+  opacity: 0;
+  transition: 8s;
+}
+.enter-show-4 {
+  opacity: 1;
+}
+
+
+
 .guaranted {
   background-color: #E5E5E5;
   height: 55.3rem;

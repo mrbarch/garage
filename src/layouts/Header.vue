@@ -5,21 +5,19 @@
         <div class="header__block">
           <div class="media-screen">
             <Slide :isOpen="open">
-              <span class="header__menu-list-item h3">About Us</span>
-              <span class="header__menu-list-item h3">Services</span>
+              <a href="#welcome" class="header__menu-list-item h3">About Us</a>
+              <a href="#specialization" class="header__menu-list-item h3">Services</a>
               <button class="btn-white header__menu-btn h3">
                 Let’s Talk
               </button>
             </Slide>
           </div>
-          <p class="header__logo">
-            GARAGE
-          </p>
+          <img src="./../assets/img/logo.png" alt="logo" class="header__logo">
           <div class="header__menu">
-            <ul class="header__menu-list">
-              <li class="header__menu-list-item h3">About Us</li>
-              <li class="header__menu-list-item h3">Services</li>
-            </ul>
+            <div class="header__menu-list">
+              <a class="header__menu-list-item h3" href="#welcome">About Us</a>
+              <a class="header__menu-list-item h3" href="#specialization">Services</a>
+            </div>
             <button class="btn-white header__menu-btn h3">
               Let’s Talk
             </button>
@@ -70,13 +68,8 @@ header {
   }
 
   &__logo {
-    font-family: VIVITA-Medium, sans-serif;
-    font-weight: 400;
-    font-size: 4.8rem;
-    line-height: 5.8rem;
-    color: #ffffff;
-    margin: 0;
-    z-index: 1;
+    width: 19.5rem;
+    background-color: transparent;
   }
 
   &__menu {
@@ -91,6 +84,12 @@ header {
       align-items: center;
       width: 24.4rem;
       padding: 0;
+      &-item {
+        color: #ffffff;
+        &:hover {
+          color: lightgray;
+        }
+      }
     }
 
     &-btn {

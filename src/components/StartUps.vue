@@ -11,7 +11,7 @@
               <li class="startups__list-item h5">Product development</li>
               <li class="startups__list-item h5">Support</li>
             </ul>
-            <div class="startups__btn btn-white">Just start a work</div>
+            <button class="startups__btn btn-white">Just start a work</button>
           </div>
           <img src="./../assets/img/bg-header.svg" alt="bg-header" class="startups__block-img">
         </div>
@@ -35,6 +35,8 @@ export default {
   height: 73.5rem;
   width: 100%;
   padding-top: 34.5rem;
+  animation: floatText 2s alternate ease-in-out;
+
 
   &:before {
     content: '';
@@ -43,6 +45,16 @@ export default {
     width: 84.2rem;
     height: 15.8rem;
     top: 32.5rem;
+    animation: floatBg 2s alternate ease-in-out;
+  }
+  @-webkit-keyframes floatBg{
+    from {
+      left: -100%;
+    }
+
+    to {
+      left: 0;
+    }
   }
 
   &__block {
@@ -55,6 +67,19 @@ export default {
       position: relative;
       top: -12.5rem;
       width: 79.3rem;
+      opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+      transition: 1s; /*Скорость перехода состояния элемента*/
+      animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+      animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+      animation-delay: 1s; /* Задержка перед началом */
+      @keyframes show{
+        0%{
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
     }
   }
 
@@ -70,6 +95,17 @@ export default {
 
   &__title {
     position: relative;
+    animation: floatText 5s alternate ease-in-out;
+
+  }
+  @-webkit-keyframes floatText{
+    from {
+      left: -200%;
+    }
+
+    to {
+      left: 0%;
+    }
   }
 
   &__subtitle {
@@ -87,6 +123,7 @@ export default {
     position: relative;
 
     &-item {
+
       &:after {
         content: '';
         height: 1rem;
@@ -111,7 +148,7 @@ export default {
     font-weight: 400;
     font-size: 2rem;
     line-height: 2.3rem;
-    width: 15rem;
+    width: 19rem;
     padding: .8rem 2rem;
   }
 }

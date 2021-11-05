@@ -5,7 +5,8 @@
         <div class="info-bg">GARAGE</div>
         <div class="info__block">
           <div class="info__block-left">
-            <div class="info__block-left-item">
+
+            <div class="info__block-left-item" v-scrollanimation-welcome1>
               <p class="info__block-left-title h3">
                 Optimising process
               </p>
@@ -18,7 +19,7 @@
               </div>
             </div>
 
-            <div class="info__block-left-item">
+            <div class="info__block-left-item" v-scrollanimation-welcome2>
               <p class="info__block-left-title h3">
                 Strong development team
               </p>
@@ -31,7 +32,7 @@
               </div>
             </div>
 
-            <div class="info__block-left-item">
+            <div class="info__block-left-item" v-scrollanimation-welcome3>
               <p class="info__block-left-title h3">
                 Great design team
               </p>
@@ -45,7 +46,7 @@
               </div>
             </div>
 
-            <div class="info__block-left-item">
+            <div class="info__block-left-item" v-scrollanimation-welcome4>
               <p class="info__block-left-title h3">
                 Unbelievable marketing team
               </p>
@@ -107,7 +108,7 @@ export default {
     font-weight: 400;
     font-size: 28.8rem;
     line-height: 34.6rem;
-    z-index: 0;
+    z-index: -1;
     opacity: 0.1;
     left: 38rem;
     top: 28rem;
@@ -158,6 +159,7 @@ export default {
         width: 55rem;
       }
       &-btn {
+        z-index: 3;
         margin-top: 8.4rem;
         font-family: Roboto-Regular, sans-serif;
         font-style: normal;
@@ -183,6 +185,7 @@ export default {
       display: flex;
       flex-direction: column;
       width: 44rem;
+
       &-left {
         &-item {
           padding-bottom: 6.4rem;
