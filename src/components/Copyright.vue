@@ -18,7 +18,7 @@ export default {
 .copyright {
   background: linear-gradient(271.59deg, #3D5969 1.64%, #040E25 61.77%);
   color: #ffffff;
-  height: 2.2rem;
+  height: 2.4rem;
   position: relative;
   margin-top: -2.5rem;
   &-text {
