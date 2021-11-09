@@ -7,11 +7,11 @@
             <h1 class="startups__title startups__title-media">STARTUPS ARE BORN HERE</h1>
             <p class="startups__subtitle h3">IT solutions for good ideas</p>
             <ul class="startups__list">
-              <li class="startups__list-item h5">Promo sites</li>
+              <li class="startups__list-item h5">Web services</li>
               <li class="startups__list-item h5">Product development</li>
               <li class="startups__list-item h5">Support</li>
             </ul>
-            <button class="startups__btn btn-white">Just start a work</button>
+            <button class="startups__btn btn-white">View cases</button>
           </div>
           <img src="./../assets/img/bg-header.svg" alt="bg-header" class="startups__block-img">
         </div>

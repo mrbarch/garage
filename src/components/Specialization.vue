@@ -5,11 +5,11 @@
         <div class="specialization__block">
           <div class="specialization__block-left">
             <h2 class="specialization__block-left-title" id="specialization">
-              What we doing?
+              What we do?
             </h2>
             <p class="specialization__block-left-subtitle">
-              Our team provides highly qualified technological support at all stages of creating your product
-            </p>
+              We carry out turnkey development, work as a white-label and sign NDA on your terms. Our team provides
+              highly qualified technological support at all stages of creating your product. </p>
           </div>
           <div class="specialization__block-right" v-scrollanimation-show>
             <p class="specialization__block-right-text">
@@ -22,7 +22,7 @@
               <span>R&D</span> - creating your product completely slave
             </p>
             <p class="specialization__block-right-text">
-              <span>Crypto</span> - difficult blockchain projects, NFT and marketplaces
+              <span>Crypto</span> - building of decentralised app's, NFT marketplaces, DeFi and GameFi projects, preparation for ICO/IDO
             </p>
             <p class="specialization__block-right-text">
               <span>Scaling</span> - bringing your products to new platforms and increasing their performance
@@ -34,7 +34,7 @@
         </div>
         <div class="specialization__bottom">
           <div class="specialization__bottom-text">
-            <p class="h2">It's time to get to know <span>our technologies</span></p>
+            <p class="h2">It's time to look at <span>our cases</span></p>
           </div>
         </div>
       </div>
@@ -52,7 +52,7 @@ export default {
 .specialization {
   position: relative;
   top: -2.5rem;
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
   height: 47rem;
 
   &__block {
@@ -112,13 +112,14 @@ export default {
       left: 0;
       z-index: 2;
     }
+
     &-text {
       text-transform: uppercase;
       color: #ffffff;
       display: flex;
       position: absolute;
-      left: 35.3rem;
-      bottom: -.6rem;
+      left: 42.9rem;
+      bottom: -.7rem;
       z-index: 3;
 
       span {
@@ -132,7 +133,7 @@ export default {
   .specialization {
     position: relative;
     top: -2.5rem;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     height: 47rem;
 
     &__block {
@@ -192,6 +193,7 @@ export default {
         left: 0;
         z-index: 2;
       }
+
       &-text {
         text-transform: uppercase;
         color: #ffffff;
@@ -208,11 +210,12 @@ export default {
     }
   }
 }
+
 @media screen and (max-width: 480px) {
   .specialization {
     position: relative;
     top: -2.5rem;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     height: 47rem;
 
     &__block {
@@ -272,6 +275,7 @@ export default {
         left: 0;
         z-index: 2;
       }
+
       &-text {
         text-transform: uppercase;
         color: #ffffff;
@@ -296,10 +300,12 @@ export default {
         display: flex;
         flex-direction: column;
         width: 44rem;
+
         &-left {
           &-title {
             padding-top: 5.2rem;
           }
+
           &-subtitle {
             font-size: 2rem;
             width: 44rem;
@@ -341,6 +347,7 @@ export default {
           left: 0;
           z-index: 2;
         }
+
         &-text {
           text-transform: uppercase;
           color: #16253A;

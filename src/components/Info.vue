@@ -13,8 +13,8 @@
               <div class="info__block-left-bottom">
                 <img src="./../assets/img/analystic-team.png" alt="design-team" class="info__block-left-bottom-img">
                 <p class="info__block-left-bottom-text">
-                  Our analysts can help to build a strategy, optimize the budget and deadline, organize the development
-                  process and launch the project
+                  Our analysts can help you build a strategy, optimize your budget and deadlines, organize the
+                  development process and launch a project.
                 </p>
               </div>
             </div>
@@ -26,8 +26,8 @@
               <div class="info__block-left-bottom">
                 <img src="./../assets/img/dev-team.png" alt="design-team" class="info__block-left-bottom-img dev-img">
                 <p class="info__block-left-bottom-text">
-                  Our developers have a huge experience in the development of websites, applications and CRM- systems
-                  for business. So you will receive an optimized product wery fast
+                  Our developers have huge experience in developing websites and services, applications and CRM systems
+                  for business. So you will receive an optimized product very quickly.
                 </p>
               </div>
             </div>
@@ -48,13 +48,13 @@
 
             <div class="info__block-left-item" v-scrollanimation-welcome4>
               <p class="info__block-left-title h3">
-                Unbelievable marketing team
+                Incredible marketing team
               </p>
               <div class="info__block-left-bottom">
                 <img src="./../assets/img/marketing-team.png" alt="marketing-team"
                      class="info__block-left-bottom-img marketing-img">
                 <p class="info__block-left-bottom-text">
-                  We combining marketing with technologies and provide a full range of services from planning and
+                  We combine marketing with technologies and provide a full range of services from planning and
                   development to SEO and promotion.
                 </p>
               </div>
@@ -62,14 +62,15 @@
           </div>
           <div class="info__block-right">
             <div class="info__block-right-text">
-              GARAGE was founded in 2017 year for help companies to achieve their business goals on the Web in the best
-              way. Our designers, UI/UX specialists, web developers and digital marketers work together to create
-              beautiful, well-organized, and unique solutions.
+              GARAGE was founded in 2017 to help companies achieve their online business goals in the best possible way.
+              Our designers, UI / UX specialists, web developers and digital marketers work together to create
+              beautiful, well-organized and unique IT solutions.
               <br>
               <br>
-              Every website or app from our company is secure and built on latest versions of open source content
+              Every website or application of our company is secure and built on the latest versions of open source
+              content.
             </div>
-            <button class="btn-white info__block-right-btn">Just start a work</button>
+            <button class="btn-white info__block-right-btn">Let's get started</button>
           </div>
         </div>
       </div>
@@ -102,6 +103,7 @@ export default {
   height: 91rem;
   position: relative;
   z-index: 1;
+
   &-bg {
     position: absolute;
     font-family: VIVITA-Medium, sans-serif;
@@ -119,6 +121,7 @@ export default {
     display: flex;
     justify-content: space-between;
     width: 120rem;
+
     &-left {
       &-item {
         padding-bottom: 4.4rem;
@@ -152,12 +155,15 @@ export default {
         }
       }
     }
+
     &-right {
       padding-top: 6.3rem;
+
       &-text {
         font-size: 1.8rem;
         width: 55rem;
       }
+
       &-btn {
         z-index: 3;
         margin-top: 8.4rem;
@@ -173,13 +179,16 @@ export default {
     }
   }
 }
+
 @media screen and (max-width: 480px) {
 
   .info {
     height: 127rem;
+
     &-bg {
       display: none;
     }
+
     &__block {
       padding-top: 8rem;
       display: flex;
@@ -189,9 +198,11 @@ export default {
       &-left {
         &-item {
           padding-bottom: 6.4rem;
+
           &:nth-child(2) {
             padding-bottom: 6.9rem;
           }
+
           &:nth-child(3) {
             padding-bottom: 7rem;
           }
@@ -211,12 +222,15 @@ export default {
           }
         }
       }
+
       &-right {
         padding-top: 3.3rem;
+
         &-text {
           font-size: 2rem;
           width: 47rem;
         }
+
         &-btn {
           margin-top: 4.4rem;
           padding: .8rem 1.8rem;

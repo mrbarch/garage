@@ -56,7 +56,7 @@ header {
 
 .header {
   &__container {
-    width: 164rem;
+    width: 162rem;
     margin: 0 10rem 0 18rem;
   }
 

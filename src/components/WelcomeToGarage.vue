@@ -7,12 +7,11 @@
         </p>
         <div class="guaranted__subtitle">
           <p>
-            We are GARAGE. The team of highly qualified engineers and creators
-            that helps your business to launch and grow
+            We are the GARAGE development studio. The team of highly qualified engineers, developers and creators that helps your business to launch and grow
           </p>
         </div>
         <h5 class="guaranted__text">
-          We guaranted for you
+          We guarantee for you
         </h5>
         <div class="guaranted__skills-block">
 
@@ -26,7 +25,7 @@
           <div class="guaranted__item" v-scrollanimation-welcome2>
             <img src="./../assets/img/dev-skills.png" alt="dev-skills" class="guaranted__item_img">
             <p class="guaranted__item_text">
-              High skill development
+              Highly skilled development
             </p>
           </div>
 
@@ -40,7 +39,7 @@
 
         <div class="guaranted__bottom">
           <div class="guaranted__bottom-text">
-            <p class="h2">GARAGE know <span>how Internet is works</span></p>
+            <p class="h2">GARAGE knows <span>how Internet is works</span></p>
           </div>
         </div>
       </div>
@@ -89,7 +88,7 @@ export default {
 
 
 .guaranted {
-  background-color: #E5E5E5;
+  background-color: #FFFFFF;
   height: 55.3rem;
   position: relative;
 
@@ -166,6 +165,7 @@ export default {
       z-index: 2;
     }
     &-text {
+      top: 52.7rem;
       text-transform: uppercase;
       color: #16253A;
       display: flex;
