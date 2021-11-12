@@ -12,7 +12,7 @@
               </button>
             </Slide>
           </div>
-          <img src="./../assets/img/logo.png" alt="logo" class="header__logo">
+          <img src="./../assets/img/logo.svg" alt="logo" class="header__logo">
           <div class="header__menu">
             <div class="header__menu-list">
               <a class="header__menu-list-item h3" href="#welcome">About Us</a>

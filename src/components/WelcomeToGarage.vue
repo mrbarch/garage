@@ -16,21 +16,21 @@
         <div class="guaranted__skills-block">
 
           <div class="guaranted__item" v-scrollanimation-welcome1>
-            <img src="./../assets/img/ui-ux.png" alt="ui-ux" class="guaranted__item_img">
+            <img src="./../assets/img/ui-ux.svg" alt="ui-ux" class="guaranted__item_img">
             <p class="guaranted__item_text">
               Perfect UX/UI Design
             </p>
           </div>
 
           <div class="guaranted__item" v-scrollanimation-welcome2>
-            <img src="./../assets/img/dev-skills.png" alt="dev-skills" class="guaranted__item_img">
+            <img src="./../assets/img/dev-skills.svg" alt="dev-skills" class="guaranted__item_img">
             <p class="guaranted__item_text">
               Highly skilled development
             </p>
           </div>
 
           <div class="guaranted__item" v-scrollanimation-welcome3>
-            <img src="./../assets/img/marketing.png" alt="marketing" class="guaranted__item_img">
+            <img src="./../assets/img/marketing.svg" alt="marketing" class="guaranted__item_img">
             <p class="guaranted__item_text">
               Professional marketing
             </p>

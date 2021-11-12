@@ -16,7 +16,7 @@
           <img src="./../assets/img/bg-header.svg" alt="bg-header" class="startups__block-img">
         </div>
         <div class="startups__btn-more">
-          <img src="./../assets/img/btn-more.png" alt="btn-more">
+          <img src="./../assets/img/btn-more.svg" alt="btn-more">
         </div>
       </div>
     </div>

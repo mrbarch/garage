@@ -11,7 +11,7 @@
                 Optimising process
               </p>
               <div class="info__block-left-bottom">
-                <img src="./../assets/img/analystic-team.png" alt="design-team" class="info__block-left-bottom-img">
+                <img src="./../assets/img/analytic-team.svg" alt="design-team" class="info__block-left-bottom-img">
                 <p class="info__block-left-bottom-text">
                   Our analysts can help you build a strategy, optimize your budget and deadlines, organize the
                   development process and launch a project.
@@ -24,7 +24,7 @@
                 Strong development team
               </p>
               <div class="info__block-left-bottom">
-                <img src="./../assets/img/dev-team.png" alt="design-team" class="info__block-left-bottom-img dev-img">
+                <img src="./../assets/img/dev-team.svg" alt="design-team" class="info__block-left-bottom-img dev-img">
                 <p class="info__block-left-bottom-text">
                   Our developers have huge experience in developing websites and services, applications and CRM systems
                   for business. So you will receive an optimized product very quickly.
@@ -37,7 +37,7 @@
                 Great design team
               </p>
               <div class="info__block-left-bottom">
-                <img src="./../assets/img/design-team.png" alt="design-team"
+                <img src="./../assets/img/design-team.svg" alt="design-team"
                      class="info__block-left-bottom-img design-img">
                 <p class="info__block-left-bottom-text">
                   Our designers can make the most complex project easy to use for your users. They are a wizards of UX
@@ -51,7 +51,7 @@
                 Incredible marketing team
               </p>
               <div class="info__block-left-bottom">
-                <img src="./../assets/img/marketing-team.png" alt="marketing-team"
+                <img src="./../assets/img/marketing-team.svg" alt="marketing-team"
                      class="info__block-left-bottom-img marketing-img">
                 <p class="info__block-left-bottom-text">
                   We combine marketing with technologies and provide a full range of services from planning and
