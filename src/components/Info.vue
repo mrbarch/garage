@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="info">
+  <div style="position:relative;">
+    <div class="info" >
       <div class="container">
         <div class="info-bg">GARAGE</div>
         <div class="info__block">
@@ -8,7 +8,7 @@
 
             <div class="info__block-left-item" v-scrollanimation-welcome1>
               <p class="info__block-left-title h3">
-                Optimising process
+                Process optimization
               </p>
               <div class="info__block-left-bottom">
                 <img src="./../assets/img/analytic-team.svg" alt="design-team" class="info__block-left-bottom-img">
@@ -70,8 +70,11 @@
               Every website or application of our company is secure and built on the latest versions of open source
               content.
             </div>
-            <button class="btn-white info__block-right-btn">Let's get started</button>
+            <button class="btn-white info__block-right-btn" @click="showPopup">Let's get started</button>
           </div>
+        </div>
+        <div class="modal-show-info" v-if="showModalInfo" @click.self="onClickOutsideInfo">
+          <UserForm style="position:relative; left: 67rem; top: 20rem" />
         </div>
       </div>
     </div>
@@ -79,12 +82,44 @@
 </template>
 
 <script>
+import UserForm from "./UserForm";
+
 export default {
-  name: "Info"
+  name: "Info",
+  data() {
+    return {
+      showModalInfo: false,
+    }
+  },
+  components: {
+    UserForm
+  },
+  methods: {
+    showPopup() {
+      this.showModalInfo = true
+    },
+    onClickOutsideInfo () {
+      this.showModalInfo = false
+    },
+  }
 }
 </script>
 
 <style lang="scss">
+
+.modal-show-info {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
+}
+
 .dev-img {
   width: 8.719rem !important;
 }
@@ -101,7 +136,6 @@ export default {
 .info {
   background: linear-gradient(271.59deg, #3D5969 1.64%, #040E25 61.77%);
   height: 91rem;
-  position: relative;
   z-index: 1;
 
   &-bg {
@@ -112,7 +146,7 @@ export default {
     line-height: 34.6rem;
     z-index: -1;
     opacity: 0.1;
-    left: 38rem;
+    left: 2rem;
     top: 28rem;
   }
 

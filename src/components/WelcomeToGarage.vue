@@ -11,7 +11,7 @@
           </p>
         </div>
         <h5 class="guaranted__text">
-          We guarantee for you
+          We guarantee you
         </h5>
         <div class="guaranted__skills-block">
 
@@ -39,7 +39,7 @@
 
         <div class="guaranted__bottom">
           <div class="guaranted__bottom-text">
-            <p class="h2">GARAGE knows <span>how Internet is works</span></p>
+            <p class="h2">GARAGE knows how <span> the Internet works</span></p>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default {
       color: #16253A;
       display: flex;
       position: absolute;
-      right: 37.8rem;
+      right: 42.5rem;
       z-index: 3;
       span {
         color: #ffffff;

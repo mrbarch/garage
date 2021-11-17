@@ -10,20 +10,9 @@
               of successful and complex projects in the field of e-commerce, sales, services, marketing and other areas.
               All of our clients are very satisfied. We will be glad to see you among them.
             </p>
-            <!--            <button class="write__block-left-btn btn-white">Look at portfolio</button>-->
+            <a href="https://t.me/garagedev" class="write__block-left-btn btn-white" target="_blank">Contact us on Telegram</a>
           </div>
-          <div class="write__block-right">
-            <div class="write__block-right-form">
-              <div class="write__block-right-form-text">
-                Contact us and we will help you find and implement the best IT solution for your business
-              </div>
-              <input type="text" placeholder="Your name" class="write__block-right-form-name form-input">
-              <input type="text" placeholder="Subject" class="write__block-right-form-company form-input">
-              <input type="text" placeholder="Email" class="write__block-right-form-email form-input">
-              <p class="write__block-right-form-answer">We will get back to you as soon as possible!</p>
-              <button class="write__block-right-form-btn btn-white">Send</button>
-            </div>
-          </div>
+          <UserForm/>
         </div>
       </div>
     </div>
@@ -31,12 +20,24 @@
 </template>
 
 <script>
+import UserForm from "./UserForm";
+
 export default {
-  name: "Write"
+  name: "Write",
+  components: {
+    UserForm
+  }
 }
 </script>
 
 <style lang="scss">
+.swiper-container {
+  z-index: 0!important;
+}
+.active-error {
+  opacity: 0;
+}
+
 .before-enter-show {
   opacity: 0;
   transition: 5s;
@@ -95,7 +96,7 @@ export default {
         color: #181818;
         font-size: 1.8rem;
         width: 55rem;
-        padding-top: 4rem;
+        padding: 4rem 0 6.6rem 0;
       }
 
       &-btn {
@@ -103,62 +104,11 @@ export default {
         background: #4064E3;
         font-size: 2rem;
         line-height: 2.3rem;
-        margin-top: 8rem;
         padding: .8rem 2.2rem !important;
 
         &:hover {
           color: #4064E3;
           background-color: #ffffff;
-        }
-      }
-    }
-
-    &-right {
-      &-form {
-        position: absolute;
-        top: -9rem;
-        background: #CA4141;
-        border-radius: 10px;
-        height: 48rem;
-        width: 35rem;
-        padding: 4rem 4rem 3.8rem 4rem;
-
-        &-text {
-          font-size: 2rem;
-          line-height: 2.3rem;
-          font-weight: 400;
-          font-family: Roboto-Regular, sans-serif;
-        }
-
-        &-name {
-          margin-top: 7.5rem;
-          margin-bottom: 3.8rem;
-        }
-
-        &-company {
-          margin-bottom: 3.8rem;
-        }
-
-        &-email {
-        }
-
-        &-answer {
-          font-family: Roboto-Regular, sans-serif;
-          font-size: 1.8rem;
-          padding-top: 2.2rem;
-        }
-
-        &-btn {
-          border: none;
-          outline: none;
-          border-radius: 3px;
-          display: flex;
-          justify-content: center;
-          margin: auto;
-          font-size: 2rem;
-          line-height: 2.3rem;
-          padding: .7rem .7rem !important;
-          margin-top: 7.8rem;
         }
       }
     }

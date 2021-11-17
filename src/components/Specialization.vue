@@ -32,7 +32,7 @@
             </p>
           </div>
         </div>
-        <div class="specialization__bottom">
+        <div class="specialization__bottom" id="cases">
           <div class="specialization__bottom-text">
             <p class="h2">It's time to look at <span>our cases</span></p>
           </div>

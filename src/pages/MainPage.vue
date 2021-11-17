@@ -17,7 +17,7 @@ import StartUps from "../components/StartUps";
 import WelcomeToGarage from "../components/WelcomeToGarage";
 import Info from "../components/Info";
 import Specialization from "../components/Specialization";
-import Technology from "../components/Technology";
+import Technology from "../components/Cases";
 import Write from "../components/Write";
 import Copyright from "../components/Copyright";
 

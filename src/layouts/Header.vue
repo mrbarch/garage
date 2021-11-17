@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div style="position:relative;">
     <header>
       <div class="header__container">
         <div class="header__block">
@@ -17,35 +17,66 @@
             <div class="header__menu-list">
               <a class="header__menu-list-item h3" href="#welcome">About Us</a>
               <a class="header__menu-list-item h3" href="#specialization">Services</a>
+              <a class="header__menu-list-item h3" href="#cases">Cases</a>
             </div>
-            <button class="btn-white header__menu-btn h3">
+            <button @click="showPopupHeader" class="btn-white header__menu-btn h3">
               Let’s Talk
             </button>
           </div>
         </div>
       </div>
     </header>
+    <div class="modal-show-header" @click.self="onClickOutsideHeader" v-if="showModalHeader">
+      <UserForm style="position:relative; left: 67rem; top: 20rem" />
+    </div>
   </div>
 </template>
 
 <script>
 import {Slide} from "vue-burger-menu";
+import UserForm from "../components/UserForm";
 
 export default {
   name: "Header",
   components: {
-    Slide
+    Slide,
+    UserForm
   },
+
   data() {
     return {
-      open: false
+      open: false,
+      showModalHeader: false,
     };
   },
-  methods: {},
+
+  methods: {
+    showPopupHeader() {
+        this.showModalHeader = true
+    },
+    onClickOutsideHeader () {
+      this.showModalHeader = false
+    },
+  },
 }
 </script>
 
 <style lang="scss">
+
+.modal-show-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
+}
+
+
 header {
   position: absolute;
 }
@@ -75,17 +106,19 @@ header {
   &__menu {
     display: flex;
     justify-content: space-between;
-    width: 54.4rem;
+    width: 61.4rem;
 
     &-list {
       display: flex;
       justify-content: space-between;
       margin: 0;
       align-items: center;
-      width: 24.4rem;
+      width: 34.4rem;
       padding: 0;
+
       &-item {
         color: #ffffff;
+
         &:hover {
           color: lightgray;
         }
@@ -108,12 +141,14 @@ header {
       width: 48.4rem;
       margin: 0 3rem 0 3rem;
     }
+
     &__logo {
       padding-top: 1.1rem;
     }
 
     &__menu {
       display: none;
+
       &-list {
         &-item {
           font-size: 3rem;

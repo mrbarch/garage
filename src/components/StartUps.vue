@@ -96,7 +96,6 @@ export default {
   &__title {
     position: relative;
     animation: floatText 5s alternate ease-in-out;
-
   }
   @-webkit-keyframes floatText{
     from {
