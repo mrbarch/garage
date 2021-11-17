@@ -5,73 +5,6 @@
         <div class="technology__block">
           <swiper :options="swiperOptions">
             <swiper-slide>
-              <div class="technology__block-bg">
-                <div class="technology__block-text">
-
-                  <div class="technology__block-item technology__block-item-first">
-                    <div class="technology__block-item-title">
-                      Client
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Large trading company
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-second">
-                    <div class="technology__block-item-title">
-                      Status
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      completed in 2020.
-                      Project under NDA.
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-third">
-                    <div class="technology__block-item-title">
-                      Description
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Development of a parser and analytical system for processing product offer data from the world's
-                      largest marketplaces (Amazon, Alibaba, AliExpress, etc.). Parsing data on 10 million products per
-                      day (categories, prices, availability, etc.), Big Data analytics, comparison
-                      of offers, building charts and forecasting trends.
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-fourth">
-                    <div class="technology__block-item-title">
-                      Technologies
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Python, PHP, Vue.js, MongoDB
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-fifth">
-                    <div class="technology__block-item-title">
-                      Team
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      9 specialists
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
-                  <div class="technology__block-arrow-title">Automated analytical system</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
-                </div>
-              </div>
-            </swiper-slide>
-
-            <swiper-slide>
               <div class="technology__block-bg technology__block-bg-second-slide">
                 <div class="technology__block-text">
                   <div class="technology__block-item technology__block-item-first second-slide-item-first">
@@ -128,6 +61,73 @@
                        class="technology__block-arrow-left technology__block-arrow-common"
                        slot="button-prev">
                   <div class="technology__block-arrow-title">CRM for OBI</div>
+                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
+                       class="technology__block-arrow-right technology__block-arrow-common"
+                       slot="button">
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="technology__block-bg">
+                <div class="technology__block-text">
+
+                  <div class="technology__block-item technology__block-item-first">
+                    <div class="technology__block-item-title">
+                      Client
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Global trading company
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-second">
+                    <div class="technology__block-item-title">
+                      Status
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      completed in 2020.
+                      Project under NDA.
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-third">
+                    <div class="technology__block-item-title">
+                      Description
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Development of a parser and analytical system for processing product offer data from the world's
+                      largest marketplaces (Amazon, Alibaba, AliExpress, etc.). Parsing data on 10 million products per
+                      day (categories, prices, availability, etc.), Big Data analytics, comparison
+                      of offers, building charts and forecasting trends.
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-fourth">
+                    <div class="technology__block-item-title">
+                      Technologies
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Python, PHP, Vue.js, MongoDB
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-fifth">
+                    <div class="technology__block-item-title">
+                      Team
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      9 specialists
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="technology__block-bottom">
+                <div class="technology__block-arrows">
+                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
+                       class="technology__block-arrow-left technology__block-arrow-common"
+                       slot="button-prev">
+                  <div class="technology__block-arrow-title">Automated analytical system</div>
                   <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
                        class="technology__block-arrow-right technology__block-arrow-common"
                        slot="button">

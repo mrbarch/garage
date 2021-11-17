@@ -11,7 +11,7 @@
               <li class="startups__list-item h5">Product development</li>
               <li class="startups__list-item h5">Support</li>
             </ul>
-            <button class="startups__btn btn-white">View cases</button>
+            <a class="startups__btn btn-white" href="#cases">View cases</a>
           </div>
           <img src="./../assets/img/bg-header.svg" alt="bg-header" class="startups__block-img">
         </div>
@@ -36,7 +36,9 @@ export default {
   width: 100%;
   padding-top: 34.5rem;
   animation: floatText 2s alternate ease-in-out;
-
+  &__btn {
+    cursor: pointer;
+  }
 
   &:before {
     content: '';
@@ -118,7 +120,7 @@ export default {
     display: flex;
     justify-content: space-between;
     width: 48.2rem;
-    padding: 5.3rem 0 11.3rem 0;
+    padding: 5.3rem 0 12.3rem 0;
     position: relative;
 
     &-item {

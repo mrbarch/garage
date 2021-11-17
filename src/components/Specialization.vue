@@ -77,7 +77,7 @@ export default {
 
     &-right {
       width: 65rem;
-      padding-top: 12.1rem;
+      padding-top: 9rem;
       display: flex;
       justify-content: space-around;
       flex-direction: column;
@@ -294,7 +294,7 @@ export default {
 
   @media screen and (max-width: 480px) {
     .specialization {
-      height: 53rem;
+      height: 60rem;
 
       &__block {
         display: flex;
@@ -343,7 +343,7 @@ export default {
           background: #CA4141;
           width: 54.8rem;
           height: 10.5rem;
-          top: 53rem;
+          top: 60rem;
           left: 0;
           z-index: 2;
         }
@@ -353,10 +353,9 @@ export default {
           color: #16253A;
           display: flex;
           position: absolute;
-          left: 2rem;
-          top: 55rem;
+          left: 3rem;
+          top: 63.5rem;
           z-index: 3;
-
           span {
             color: #16253A;
           }

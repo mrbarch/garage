@@ -242,10 +242,10 @@ export default {
         color: #16253A;
         display: flex;
         position: absolute;
-        left: 2rem;
+        left: 3rem;
         right: 0;
         width: 44rem;
-        top: 79.5rem;
+        top: 80rem;
         z-index: 3;
         span {
           color: #16253A;

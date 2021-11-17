@@ -7,6 +7,7 @@
             <Slide :isOpen="open">
               <a href="#welcome" class="header__menu-list-item h3">About Us</a>
               <a href="#specialization" class="header__menu-list-item h3">Services</a>
+              <a class="header__menu-list-item h3" href="#cases">Cases</a>
               <button class="btn-white header__menu-btn h3">
                 Let’s Talk
               </button>
@@ -92,6 +93,7 @@ header {
   }
 
   &__block {
+    width: 164rem;
     display: flex;
     height: 10.3rem;
     align-items: center;
@@ -106,14 +108,14 @@ header {
   &__menu {
     display: flex;
     justify-content: space-between;
-    width: 61.4rem;
+    width: 69.4rem;
 
     &-list {
       display: flex;
       justify-content: space-between;
       margin: 0;
       align-items: center;
-      width: 34.4rem;
+      width: 37.4rem;
       padding: 0;
 
       &-item {

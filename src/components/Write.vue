@@ -125,7 +125,8 @@ export default {
 
       &-left {
         &-btn {
-          margin-top: 5rem !important;
+          width: 38.3rem;
+          margin-left: 2.3rem !important;
           display: flex;
           justify-content: center;
           margin: auto;
