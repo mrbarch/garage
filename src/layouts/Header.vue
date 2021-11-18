@@ -4,7 +4,7 @@
       <div class="header__container">
         <div class="header__block">
           <div class="media-screen">
-            <Slide :isOpen="open">
+            <Slide :isOpen="open" :closeOnNavigation = true>
               <a href="#welcome" class="header__menu-list-item h3">About Us</a>
               <a href="#specialization" class="header__menu-list-item h3">Services</a>
               <a class="header__menu-list-item h3" href="#cases">Cases</a>
@@ -28,7 +28,7 @@
       </div>
     </header>
     <div class="modal-show-header" @click.self="onClickOutsideHeader" v-if="showModalHeader">
-      <UserForm style="position:relative; left: 67rem; top: 20rem" />
+      <UserForm style="position:relative; left: 67rem; top: 20rem"/>
     </div>
   </div>
 </template>
@@ -53,11 +53,17 @@ export default {
 
   methods: {
     showPopupHeader() {
-        this.showModalHeader = true
+      this.showModalHeader = true
     },
-    onClickOutsideHeader () {
+    onClickOutsideHeader() {
       this.showModalHeader = false
     },
+    showMenu() {
+      this.open = false
+    },
+    hideMenu() {
+      this.open = true
+    }
   },
 }
 </script>
@@ -144,8 +150,13 @@ header {
       margin: 0 3rem 0 3rem;
     }
 
+    &__block {
+      width: 51rem;
+    }
+
     &__logo {
-      padding-top: 1.1rem;
+      padding: 4.4rem 2.5rem 0 0;
+
     }
 
     &__menu {

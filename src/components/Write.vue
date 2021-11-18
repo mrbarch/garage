@@ -144,18 +144,6 @@ export default {
           padding-top: 4rem;
         }
       }
-
-      &-right {
-        &-form {
-          left: 2.3rem;
-          top: 48rem;
-          height: 44rem;
-
-          &-btn {
-            margin-top: 3.8rem;
-          }
-        }
-      }
     }
   }
 }

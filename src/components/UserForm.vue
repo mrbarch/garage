@@ -97,4 +97,21 @@ export default {
     }
   }
 }
+@media screen and (max-width: 480px) {
+  .write__block {
+    &-right {
+      &-form {
+        left: 2.3rem;
+        top: 48rem;
+        height: 44rem;
+
+        &-btn {
+          margin-top: .8rem;
+        }
+      }
+    }
+  }
+}
+
+
 </style>

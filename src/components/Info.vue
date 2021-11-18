@@ -258,7 +258,7 @@ export default {
       }
 
       &-right {
-        padding-top: 3.3rem;
+        padding-top: .3rem;
 
         &-text {
           font-size: 2rem;
