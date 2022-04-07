@@ -47,7 +47,7 @@ export default {
     width: 84.2rem;
     height: 15.8rem;
     top: 32.5rem;
-    animation: floatBg 2s alternate ease-in-out;
+    animation: floatBg 1.5s alternate ease-in-out;
   }
   @-webkit-keyframes floatBg{
     from {
@@ -97,7 +97,7 @@ export default {
 
   &__title {
     position: relative;
-    animation: floatText 5s alternate ease-in-out;
+    animation: floatText 2.5s alternate ease-in-out;
   }
   @-webkit-keyframes floatText{
     from {
@@ -105,7 +105,7 @@ export default {
     }
 
     to {
-      left: 0%;
+      left: 0;
     }
   }
 

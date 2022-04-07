@@ -8,7 +8,7 @@
               <a href="#welcome" class="header__menu-list-item h3">About Us</a>
               <a href="#specialization" class="header__menu-list-item h3">Services</a>
               <a class="header__menu-list-item h3" href="#cases">Cases</a>
-              <button class="btn-white header__menu-btn h3">
+              <button class="btn-white header__menu-btn h3" @click="showPopupHeader">
                 Let’s Talk
               </button>
             </Slide>
@@ -27,8 +27,9 @@
         </div>
       </div>
     </header>
-    <div class="modal-show-header" @click.self="onClickOutsideHeader" v-if="showModalHeader">
-      <UserForm style="position:relative; left: 67rem; top: 20rem"/>
+    <div class="modal-show-header" @click.self="onClickOutsideHeader" v-if="showModalHeader" :class="{'hide-modal' : showModalHeader === false}">
+      <div class="modal-cross" @click="onClickOutsideHeader">×</div>
+      <UserForm class="modal-show-form"/>
     </div>
   </div>
 </template>
@@ -70,7 +71,46 @@ export default {
 
 <style lang="scss">
 
+.modal-show-form {
+  position: relative;
+  left: 67rem;
+  top: 20rem;
+}
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@keyframes fadeOff{
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+.hide-modal {
+  animation: fadeOff ease 1s;
+}
+
+.modal-cross {
+  cursor: pointer;
+  font-size: 4rem;
+  font-weight: bold;
+  color: gray;
+  width: 2rem;
+  position: relative;
+  top: 10rem;
+  display: flex;
+  left: 16rem;
+  margin: 0 auto;
+  justify-content: center;
+}
 .modal-show-header {
+  animation: fadeIn ease 1s;
   position: fixed;
   left: 0;
   top: 0;
@@ -179,6 +219,16 @@ header {
   }
   .bm-burger-bars {
     background-color: #fff;
+  }
+
+  .modal-show-form {
+    position: relative;
+    left: -2rem;
+    top: -47rem;
+  }
+  .modal-cross {
+    top: 0;
+    left: 18rem;
   }
 }
 

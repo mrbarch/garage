@@ -74,7 +74,8 @@
           </div>
         </div>
         <div class="modal-show-info" v-if="showModalInfo" @click.self="onClickOutsideInfo">
-          <UserForm style="position:relative; left: 67rem; top: 20rem" />
+          <div class="modal-cross" @click="onClickOutsideInfo">×</div>
+          <UserForm class="modal-show-form-info" />
         </div>
       </div>
     </div>
@@ -107,7 +108,21 @@ export default {
 
 <style lang="scss">
 
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+.modal-show-form-info {
+  position:relative;
+  left: 67rem;
+  top: 20rem
+}
 .modal-show-info {
+  animation: fadeIn ease 1s;
   position: fixed;
   left: 0;
   top: 0;
@@ -271,6 +286,11 @@ export default {
         }
       }
     }
+  }
+  .modal-show-form-info {
+    position: relative;
+    left: -2rem;
+    top: -47rem;
   }
 }
 </style>

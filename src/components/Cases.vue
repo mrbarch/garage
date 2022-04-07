@@ -7,6 +7,7 @@
             <swiper-slide>
               <div class="technology__block-bg technology__block-bg-second-slide">
                 <div class="technology__block-text">
+
                   <div class="technology__block-item technology__block-item-first second-slide-item-first">
                     <div class="technology__block-item-title">
                       Client
@@ -56,14 +57,64 @@
                 </div>
               </div>
               <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
+                <div class="technology__block-bottom-title">
                   <div class="technology__block-arrow-title">CRM for OBI</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
+                </div>
+              </div>
+            </swiper-slide>
+
+            <swiper-slide>
+              <div class="technology__block-bg technology__block-bg-sixth-slide">
+                <div class="technology__block-text">
+                  <div class="technology__block-item technology__block-item-first sixth-slide-item-first">
+                    <div class="technology__block-item-title">
+                      Client
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      partner Startup
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-second sixth-slide-item-second">
+                    <div class="technology__block-item-title">
+                      Status
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Expected to be completed. Project under NDA
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-third">
+                    <div class="technology__block-item-title">
+                      Description
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Full development cycle from game design to marketplace. Development of a promo site, rendering of a game collection, writing smart contracts, generation of a collection, development of lauchapp for a whitelist and pre-sale, development of a marketplace.
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-fourth six-slide-item-fourth">
+                    <div class="technology__block-item-title">
+                      Technologies
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      Solidity, PHP (laravel), Web3.js, React.js, Vue.js
+                    </h4>
+                  </div>
+
+                  <div class="technology__block-item technology__block-item-fifth">
+                    <div class="technology__block-item-title">
+                      Team
+                    </div>
+                    <h4 class="technology__block-item-text">
+                      14 specialists
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="technology__block-bottom">
+                <div class="technology__block-bottom-title">
+                  <div class="technology__block-arrow-title">Blockchain application NFT marketplace.</div>
                 </div>
               </div>
             </swiper-slide>
@@ -123,14 +174,8 @@
                 </div>
               </div>
               <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
+                <div class="technology__block-bottom-title">
                   <div class="technology__block-arrow-title">Automated analytical system</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
                 </div>
               </div>
             </swiper-slide>
@@ -186,14 +231,8 @@
                 </div>
               </div>
               <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
+                <div class="technology__block-bottom-title">
                   <div class="technology__block-arrow-title">Corporate website for the bank Sovcombank.ru</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
                 </div>
               </div>
             </swiper-slide>
@@ -251,14 +290,8 @@
                 </div>
               </div>
               <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
+                <div class="technology__block-bottom-title">
                   <div class="technology__block-arrow-title">Car marketplace</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
                 </div>
               </div>
             </swiper-slide>
@@ -289,7 +322,8 @@
                       Description
                     </div>
                     <h4 class="technology__block-item-text">
-                      Promo Website and VR application for presenting future architectural ideas to clients and developers. Concept development, design and full technical implementation.
+                      Promo Website and VR application for presenting future architectural ideas to clients and
+                      developers. Concept development, design and full technical implementation.
                     </h4>
                   </div>
 
@@ -313,82 +347,20 @@
                 </div>
               </div>
               <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
+                <div class="technology__block-bottom-title">
                   <div class="technology__block-arrow-title">Promo Website and VR App</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
-                </div>
-              </div>
-            </swiper-slide>
-
-            <swiper-slide>
-              <div class="technology__block-bg technology__block-bg-sixth-slide">
-                <div class="technology__block-text">
-                  <div class="technology__block-item technology__block-item-first sixth-slide-item-first">
-                    <div class="technology__block-item-title">
-                      Client
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Sales network, more <br>
-                      than 100 parkings,<nobr>Germany</nobr>
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-second sixth-slide-item-second">
-                    <div class="technology__block-item-title">
-                      Status
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      completed in 2020.
-                      Project under NDA
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-third">
-                    <div class="technology__block-item-title">
-                      Description
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Application for automating parkings in Germany. License plate recognition, time and place control, payment system, CRM system.
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-fourth six-slide-item-fourth">
-                    <div class="technology__block-item-title">
-                      Technologies
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      Python, React, C++, MongoDB
-                    </h4>
-                  </div>
-
-                  <div class="technology__block-item technology__block-item-fifth">
-                    <div class="technology__block-item-title">
-                      Team
-                    </div>
-                    <h4 class="technology__block-item-text">
-                      5 specialists
-                    </h4>
-                  </div>
-                </div>
-              </div>
-              <div class="technology__block-bottom">
-                <div class="technology__block-arrows">
-                  <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
-                       class="technology__block-arrow-left technology__block-arrow-common"
-                       slot="button-prev">
-                  <div class="technology__block-arrow-title">Application for parking automation</div>
-                  <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
-                       class="technology__block-arrow-right technology__block-arrow-common"
-                       slot="button">
                 </div>
               </div>
             </swiper-slide>
           </swiper>
+          <div class="technology__block-arrows">
+            <img src="./../assets/img/arrow-slider-left.svg" alt="arrow-slider-left"
+                 class="technology__block-arrow-left technology__block-arrow-common"
+                 slot="button-prev">
+            <img src="./../assets/img/arrow-slider-right.svg" alt="arrow-slider-right"
+                 class="technology__block-arrow-right technology__block-arrow-common"
+                 slot="button">
+          </div>
         </div>
       </div>
     </div>
@@ -413,7 +385,49 @@ export default {
           nextEl: '.technology__block-arrow-right',
           prevEl: '.technology__block-arrow-left'
         }
-      }
+      },
+      cases: [
+        {
+          client: 'OBI hypermarket chain (570 stores worldwide), Germany',
+          status: 'completed in 2021, under maintenance, project under partial NDA.',
+          description: 'CRM-system for working with contractors and clients of OBI hypermarkets, team management system, multi-level access system, project workflow, including parsing and online signing of documents.',
+          technologies: 'PHP, Laravel, Vue.js, MySQL',
+          team: '6 specialists',
+          title: 'CRM for OBI'
+        },
+        {
+          client: 'Global trading company',
+          status: 'completed in 2020. Project under NDA.',
+          description: "Development of a parser and analytical system for processing product offer data from the world's largest marketplaces (Amazon, Alibaba, AliExpress, etc.). Parsing data on 10 million products per day (categories, prices, availability, etc.), Big Data analytics, comparison of offers, building charts and forecasting trends.",
+          technologies: 'Python, PHP, Vue.js, MongoDB',
+          team: '9 specialists',
+          title: 'Automated analytical system'
+        },
+        {
+          client: 'SovComBank, Russia',
+          status: 'completed in 2019',
+          description: 'A corporate website for factoring with a personal account and an online system for automatic selection of factoring tariffs.',
+          technologies: 'PHP, HTML5, CSS, MySQL',
+          team: '5 specialists',
+          title: 'Corporate website for the bank Sovcombank.ru'
+        },
+        {
+          client: 'Autowini.com Autotrading Company, Korea',
+          status: 'completed in 2018, joint project.',
+          description: "Korea's largest auto trading platform. Completion of the registration system, development of the administration system, UI design, business analysis, participation in the development of the marketplace.",
+          technologies: 'PHP, HTML5, CSS, MySQL',
+          team: '8 specialists',
+          title: 'Car marketplace'
+        },
+        {
+          client: 'SovComBank, Russia',
+          status: 'completed in 2021, under maintenance, project under partial NDA. ',
+          description: ' CRM-system for working with contractors and clients of OBI hypermarkets, team management system, multi-level access system, project workflow, including parsing and online signing of documents. ',
+          technologies: 'PHP, Laravel, Vue.js, MySQL',
+          team: '6 specialists',
+          title: 'Promo Website and VR App'
+        }
+      ]
     }
   },
   components: {
@@ -431,6 +445,10 @@ export default {
   transform: translate3d(-1920 px, 0px, 0px
   ) !important;
 
+}
+
+.swiper-container {
+  height: 111%;
 }
 
 .swiper-slide {
@@ -483,6 +501,7 @@ export default {
         width: 120rem !important;
         height: 42rem;
       }
+
       &-fifth-slide {
         top: 12rem;
         position: relative;
@@ -491,6 +510,7 @@ export default {
         width: 120rem !important;
         height: 42rem;
       }
+
       &-sixth-slide {
         top: 12rem;
         position: relative;
@@ -547,10 +567,19 @@ export default {
     }
 
     &-bottom {
-      padding-top: 14rem;
+      padding-top: 16rem;
+
+      &-title {
+        width: 120rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     }
 
     &-arrows {
+      position: relative;
+      top: -4rem;
       width: 120rem;
       display: flex;
       justify-content: space-between;
@@ -577,6 +606,10 @@ export default {
       }
 
       &-title {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
         font-family: Roboto-Medium, sans-serif;
         font-style: normal;
         font-weight: 500;
@@ -602,20 +635,25 @@ export default {
 .third-slide-item-fourth {
   padding-right: 9.2rem !important;
 }
+
 .fourth-slide-item-first {
   width: 27.5rem;
   padding-right: 2rem !important;
 }
+
 .sixth-slide-item-first {
   width: 22rem;
   padding-right: 7.5rem;
 }
+
 .sixth-slide-item-second {
   width: 16rem;
 }
+
 .six-slide-item-fourth {
   padding-right: 6rem;
 }
+
 .third-slide-item-third {
   width: 18.5rem;
 }
